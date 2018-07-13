@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 .background {
 	background-image: url('./Images/background.jpg');
 	background-position: center center;
@@ -19,3 +19,7 @@ body {
 	color: #1B3851;
 
 }
+
+/*.modalButtons {
+	vertical-align: baseline;
+}*/
