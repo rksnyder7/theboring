@@ -1,7 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
 .background {
-	background-image: url('./background.jpg');
+	background-image: url('./Images/background.jpg');
 	background-position: center center;
 	background-size: cover; 
 	position: absolute;
@@ -11,3 +11,11 @@
 }
 
 
+body {
+	font-family: 'Work Sans';
+}
+
+.link {
+	color: #1B3851;
+
+}

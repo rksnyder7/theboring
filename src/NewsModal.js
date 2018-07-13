@@ -31,7 +31,9 @@ class NewModel extends Component {
 		this.setState({ content: this.state.content - 1});
 	}
 
+            
 	render() {
+
 		return (
 			<ReactModal
 				style={customStyles}
@@ -40,7 +42,10 @@ class NewModel extends Component {
 				ariaHideApp={false}
 			>
 			
-            <div>{Stories[this.state.content]}</div>
+            <h2>{Stories[this.state.content].Title}</h2>
+            <p>{Stories[this.state.content].Description}</p>
+            <img alt='hold' height='200' src={Stories[this.state.content].Picture} />
+            <a target='_blank' href={Stories[this.state.content].Link}>Link</a>
 			<button onClick={this.backStory}>Back</button>
 			<button onClick={this.nextStory}>Next</button>
 	        <button onClick={this.props.handleCloseModal}>close</button>

@@ -15,7 +15,7 @@ class App extends Component {
 
   }
 
-  	handleOpenModal = () => {
+  handleOpenModal = () => {
 		this.setState({ showModal: true });
 	}
 
